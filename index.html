@@ -10,8 +10,8 @@
     <title>Meetup List</title>
 </head>
 <body>
-    <h3>Group Meetup Date</h3> 
-    <h2><textarea></textarea> <textarea></textarea> <button id = 'meetup'>Add Mettup</button>
+    <input placeholder = "Group" id = "group"/> <input placeholder = "Meetup Date" id = "date"/>
+    <button id = 'meetup'>Add Meetup</button>
     </h2>
     <table>
         <thead>
@@ -21,18 +21,25 @@
                 <th>Delete</th>
             </tr>
         </thead>
-        <tr>
-            <th id = 'group'>something</th>
-            <th id = 'date'>10/24/19</th>
-            <th id = 'delete'><button>delete</button></th>
-        </tr>
-        <tr>
-                <th>something</th>
-                <th>10/24/19</th>
-                <th><button>delete</button></th>
-            </tr>
+        <tbody>
+                <tr>
+                        <td>placeholder</td>
+                        <td>10/24/19</td>
+                        <td class = 'delete'><button>delete</button></td>
+                </tr>
+                <tr>
+                        <td>other</td>
+                        <td>10/25/19</td>
+                        <td class = 'delete'><button>delete</button></td>
+                </tr>
+                <tr>
+                        <td>coolkidclub</td>
+                        <td>10/27/19</td>
+                        <td class = 'delete'><button>delete</button></td>
+                </tr>
+        </tbody>
     </table>
-    <div>Total Meetups: 0</div>
+    <div>Total Meetups:</div><div id = 'number'>3</div>
     
 </body>
 </html>
